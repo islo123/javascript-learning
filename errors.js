@@ -1,0 +1,26 @@
+/* 
+let a = 7 * undefined / "panama";
+console.log(a); */
+/* 
+function beforeTryCatch() {
+    let obj = undefined;
+    console.log(obj.b);
+    console.log( "If the previous line of code throws an exception you will never see this.");
+
+
+}
+
+function afterTryCatch() {
+    try {
+        let obj = undefined;
+        console.log(obj.b);
+        console.log( "If the previous line of code throws an exception you will never see this.");
+
+
+    } catch (error) {
+        console.log("I caught an expection + error.message");
+    } finally {
+        console.log("This will happen no matter what.");
+    }
+    console.log("My application is still running");
+} */
